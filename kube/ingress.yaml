@@ -11,7 +11,7 @@ spec:
   # 외부 트래픽을 어떻게 처리할 지 정의
   rules:
     # 특정 도메인으로 들어오는 트래픽에 대해 라우팅 정의, 생략시 모든 트래픽 처리
-    - host: af4de99f4bd6c4f88b90e34d487a64a9-1130938006.ap-northeast-2.elb.amazonaws.com
+    - host: k8s.realizeme.o-r.kr
       http:
         paths:
           - path: /
